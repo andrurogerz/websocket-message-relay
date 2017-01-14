@@ -1,0 +1,13 @@
+{
+  "name": "multiplayer-socket-server",
+  "version": "0.0.1",
+  "description": "a demo multiplayer socket server game",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/andrurogerz/websocket-message-relay.git"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "socket.io": "^1.7.2"
+  }
+}
