@@ -41,7 +41,7 @@ function registerClient(socket) {
     var msg = JSON.stringify(update);
     console.log('broadcast: update ' +  msg);
     io.emit('update', msg);
-    printClients(clients);
+    //printClients(clients);
   });
 
   // register a handler for client disconnect
